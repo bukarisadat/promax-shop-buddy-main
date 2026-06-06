@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useMemo, useState } from "react";
-import { Apple, MapPin, Phone, ShoppingBag, Shield, Truck, CheckCircle2, Star, Send, RotateCw, X, Instagram, Facebook, MessageCircle } from "lucide-react";
+import { Apple, MapPin, Phone, ShoppingBag, Shield, Truck, CheckCircle2, Star, Send, RotateCw, X, Instagram, Facebook, MessageCircle, MessagesSquare } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -359,7 +359,7 @@ Please confirm availability and delivery. Thank you!`;
           <div>
             <p className="text-sm font-semibold uppercase tracking-widest text-white/80">Order fast</p>
             <Button asChild className="mt-4 gradient-brand text-brand-foreground border-0">
-              <a href={`https://wa.me/${WHATSAPP_NUMBER}`} target="_blank" rel="noopener"><Phone className="mr-2 h-4 w-4" /> WhatsApp Big Joe</a>
+              <a href={`https://wa.me/${WHATSAPP_NUMBER}`} target="_blank" rel="noopener"><MessagesSquare className="mr-2 h-4 w-4" /> WhatsApp Big Joe</a>
             </Button>
           </div>
         </div>
