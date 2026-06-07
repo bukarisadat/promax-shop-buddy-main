@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useMemo, useState } from "react";
-import { Apple, MapPin, Phone, ShoppingBag, Shield, Truck, CheckCircle2, Star, Send, RotateCw, X, Instagram, Facebook, MessageCircle, MessagesSquare } from "lucide-react";
+import { Apple, MapPin, Phone, ShoppingBag, Shield, Truck, CheckCircle2, Star, Send, RotateCw, X, Instagram, Facebook, MessageCircle, MessagesSquare, Music4 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -352,6 +352,11 @@ Please confirm availability and delivery. Thank you!`;
               <li>
                 <a href="https://www.facebook.com/bigjoekumasi/" target="_blank" rel="noopener" className="inline-flex items-center gap-2 hover:text-white">
                   <Facebook className="h-4 w-4 text-brand" /> Facebook Big Joe Kumasi
+                </a>
+              </li>
+              <li>
+                <a href="https://www.tiktok.com/@bigjoekumasi" target="_blank" rel="noopener" className="inline-flex items-center gap-2 hover:text-white">
+                  <Music4 className="h-4 w-4 text-brand" /> TikTok @bigjoekumasi
                 </a>
               </li>
             </ul>
